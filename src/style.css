@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+* {
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.nav--logo {
+  width: 25px;
+}
+.nav--title {
+  font-weight: 400;
+}
+.main-content {
+  padding: 0 20px;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  gap: 10px;
+  max-width: 400px;
+  padding: 20px 0;
+}
+.card:not(:last-child) { 
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+.card--image {
+  height: 170px;
+}
+.card-details--subtitle {
+  display: flex;
+  font-size: 10px;
+  align-content: center;
+}
+.card-details--pin {
+  width: 10px;
+  margin-right: 5px;
+}
+.card-details--location {
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  color: #2B283A;
+  text-transform: uppercase;
+}
+.card-details--googlelink {
+  font-weight: 100;
+  color: #918E9B;
+  margin-left: 10px;
+}
+.card-details--title {
+  font-size: 25px;
+  margin: 0 0 15px;
+}
+.card-details--time {
+  font-size: 10px;
+  color: #2B283A;
+  margin: 10px 0;
+}
+.card-details--decsription {
+  font-size: 10px;
+  font-weight: 100;
+  color: #2B283A;
+  line-height: 150%;
+}
